@@ -2,21 +2,25 @@ public class Main{
     public static void main(String[] args){
         int earlyStudentCount = 8;
         int lateStudentCount = 7;
-        //Make Students
-        Student E1 = new Student ("E1", true, 1, 2, 3, 4, 5);
-        Student E2 = new Student ("E2", true, 1, 2, 3, 4, 5);
-        Student E3 = new Student ("E3", true, 1, 2, 3, 4, 5);
-        Student E4 = new Student ("E4", true, 1, 2, 3, 4, 5);
-        Student E5 = new Student ("E5", true, 1, 2, 3, 4, 5);
-        Student E6 = new Student ("E6", true, 1, 2, 3, 4, 5);
-        Student E7 = new Student ("E7", true, 1, 2, 3, 4, 5);
-        Student E8 = new Student ("E8", true, 1, 2, 3, 4, 5);
-        Student L1 = new Student ("L1", true, 1, 2, 3, 4, 5);
-        Student L2 = new Student ("L2", true, 1, 2, 3, 4, 5);
-        Student L3 = new Student ("L3", true, 1, 2, 3, 4, 5);
-        Student L4 = new Student ("L4", true, 1, 2, 3, 4, 5);
-        Student L5 = new Student ("L5", true, 1, 2, 3, 4, 5);
-        Student L6 = new Student ("L6", true, 1, 2, 3, 4, 5);
-        Student L7 = new Student ("L7", true, 1, 2, 3, 4, 5);
+        String[] earlyArr = {"Ava", "Ayla", "Carol", "Chloe", "Clella", "Georgia", "Harlow" , "Remy" };
+        String[] lateArr ={"Desmond", "Diana", "Ellyott", "Josh", "Kaiden", "McKenna", "Reece", null};
+        //early lunch students
+        Student ava = new Student ("Ava", true, 1, 2, 3, 4, 5);
+        Student ayla = new Student ("Ayla", true, 1, 2, 3, 4, 5);
+        Student carol = new Student ("Carol", true, 1, 2, 3, 4, 5);
+        Student chloe = new Student ("Chloe", true, 1, 2, 3, 4, 5);
+        Student clella = new Student ("Clella", true, 1, 2, 3, 4, 5);
+        Student georgia = new Student ("Georgia", true, 1, 2, 3, 4, 5);
+        Student harlow = new Student ("Harlow", true, 1, 2, 3, 4, 5);
+        Student remy = new Student ("Remy", true, 1, 2, 3, 4, 5);
+        //late lunch students
+        Student desmond = new Student ("Desmond", false, 1, 2, 3, 4, 5);
+        Student diana = new Student ("Diana", false, 1, 2, 3, 4, 5);
+        Student ellyott = new Student ("Ellyott", false, 1, 2, 3, 4, 5);
+        Student josh = new Student ("Josh", false, 1, 2, 3, 4, 5);
+        Student kaiden = new Student ("Kaiden", false, 1, 2, 3, 4, 5);
+        Student mcKenna = new Student ("McKenna", false, 1, 2, 3, 4, 5);
+        Student reece = new Student ("Reece", false, 1, 2, 3, 4, 5);
+
     }
 }
