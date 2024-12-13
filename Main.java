@@ -1,9 +1,7 @@
 public class Main{
     public static void main(String[] args){
-        int earlyStudentCount = 8;
-        int lateStudentCount = 7;
         String[] earlyArr = {"Ava", "Ayla", "Carol", "Chloe", "Clella", "Georgia", "Harlow" , "Remy" };
-        String[] lateArr ={"Desmond", "Diana", "Ellyott", "Josh", "Kaiden", "McKenna", "Reece", null};
+        String[] lateArr ={"Desmond", "Diana", "Ellyott", "Josh", "Kaiden", "McKenna", "Reece" };
         //early lunch students
         Student ava = new Student ("Ava", true, 1, 2, 3, 4, 5);
         Student ayla = new Student ("Ayla", true, 1, 2, 3, 4, 5);

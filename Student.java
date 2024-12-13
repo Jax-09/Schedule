@@ -49,28 +49,28 @@ public class Student {
     }
 
     //Setters
-    /* 
-    public void setStudantName(n){
+    
+    public void setStudantName(String n){
         name=n;
     }
-    public void setLunch(l){
-        lunch=l;
+    public void setLunch(boolean l){
+        earlyLunch=l;
     }
-    public void setTeller1(o){
+    public void setTeller1(int o){
         teller1=o;
     }
-    public void setTeller2(t){
+    public void setTeller2(int t){
         teller2=t;
     }
-    public void setAltDualControl(a){
+    public void setAltDualControl(int a){
         altDualControl=a;
     }
-    public void setClassPresentation(c){
+    public void setClassPresentation(int c){
         classPresentation=c;
     }
-    public void setCustodial(u){
+    public void setCustodial(int u){
         custodial=u;
-    } */
+    } 
 }
 
 
