@@ -11,15 +11,16 @@ public class schedule {
         String classPresentation2 = randArr[6];
         String custodial1 = randArr[7];
         String custodial2 = randArr[8];
+        String newLine = System.getProperty("line.separator");
         String schedule =
-        "Teller1:" + teller1 + " 
-        Teller2:"+ teller2 + " 
-        altDualControl1:" + altDualControl1 + " 
-        altDualControl2:" + altDualControl2 + "
-        classPresentation1:" classPresentation1 + "
-        classPresentation2:" + classPresentation2 + "
-        custodial1:" + custodial1 + "
-        custodial2:" + custodial2;
+            "Teller1: " + teller1 + newLine +
+            "Teller2: "+ teller2 + newLine +
+            "altDualControl1: " + altDualControl1 + newLine +
+            "altDualControl2: " + altDualControl2 + newLine +
+            "classPresentation1: " + classPresentation1 + newLine +
+            "classPresentation2: " + classPresentation2 + newLine +
+            "custodial1: " + custodial1 + newLine +
+            "custodial2: " + custodial2;
         return schedule;
     }
 }
