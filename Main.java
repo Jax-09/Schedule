@@ -19,6 +19,7 @@ public class Main{
         Student kaiden = new Student ("Kaiden", false, 1, 2, 3, 4, 5);
         Student mcKenna = new Student ("McKenna", false, 1, 2, 3, 4, 5);
         Student reece = new Student ("Reece", false, 1, 2, 3, 4, 5);
-        System.out.println(schedule.makeSchedule(earlyArr));
+        //System.out.println(shuffleArray.arrayShuffle(earlyArr));
+        System.out.println(shuffleArray.arrayShuffle(earlyArr));
     }
 }

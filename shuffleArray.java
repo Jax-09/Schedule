@@ -4,14 +4,18 @@ import java.util.List;
 
 
 public class shuffleArray{
-        public static String arrayShuffle(String[] n){
+        public static String[] arrayShuffle(String[] n){
             List<String> strList = Arrays.asList(n);
 
             Collections.shuffle(strList);
 
             strList.toArray(n);
 
-            return (Arrays.toString(n));
+            String x = (Arrays.toString(n));
+
+            String[] arrOfX = x.split(", ");
+
+            return arrOfX;
         }
         
     }

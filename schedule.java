@@ -1,7 +1,7 @@
 public class schedule {
     public static String makeSchedule(String[] j){
         
-        String[] randArr = {shuffleArray.arrayShuffle(j)};
+        String[] randArr = shuffleArray.arrayShuffle(j);
        
         String teller1 = randArr[1];
         String teller2 = randArr[2];
